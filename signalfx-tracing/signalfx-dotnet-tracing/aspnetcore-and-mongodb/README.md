@@ -13,8 +13,8 @@ This multi-container application assumes you have [Docker Compose](https://docs.
 named `smart-gateway`. To build and run the example services, please clone this repository and from this directory do the following:
 
 ```bash
-  $ docker-compose build
-  $ docker-compose up
+  $ sudo docker-compose build
+  $ sudo docker-compose up
 ```
 
 These commands will build the .NET projects and provide and coordinate their environments to create instrumented
